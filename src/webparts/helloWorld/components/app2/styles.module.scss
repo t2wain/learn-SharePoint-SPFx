@@ -1,0 +1,41 @@
+.app {
+  padding: 2em;
+
+  .counter {
+    text-align: center;
+    width: 15rem;
+    padding: 1rem 0 2rem 0;
+    margin: 2rem auto;
+    border: 1px solid black;
+  }
+
+  .count {
+    padding: 1em;
+  }
+
+  .list-form {
+    width: 20rem;
+    margin: 2rem auto;
+    text-align: left;
+  }
+
+  .list-status {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .lst-item {
+    margin: 0 auto;
+    width: 90%;
+    li {
+      margin: 1.2rem 0;
+      button {
+        float: right;
+        margin: 0.1rem;
+      }
+    }
+    .done {
+      text-decoration: line-through;
+    }
+  }
+}
